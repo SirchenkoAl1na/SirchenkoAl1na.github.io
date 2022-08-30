@@ -1,0 +1,66 @@
+@media screen and (max-width: 1400px){
+	footer .social-network{
+		margin-left: 0px;
+		/*display: block!important;*/
+	}
+}
+
+
+@media screen and (max-width: 1200px){
+	footer .social-title, footer .social-link{
+		
+		display: block!important;
+	}
+	footer .social-network{
+		margin-left: 0px;
+		/*display: block!important;*/
+	}
+
+}
+
+@media screen and (max-width: 992px){
+	header .nav ul li, footer .nav ul li{
+		margin: 0px;
+
+	}
+	header .nav ul li a, footer .nav ul li a, footer .social-title{
+		font-size: 13px;
+	}
+	footer .logo{
+		margin-right: 0px;
+	}
+	footer .social-network{
+		margin-left: 0px;
+		display: block!important;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px){
+	header .logo, footer .logo{
+		text-align: center;
+
+	}
+	header .nav ul li, footer .nav ul li, footer .social-network, footer .rights{
+		display: block!important;
+		text-align: center;
+		margin: 0px;
+
+	}
+	header .sub/*, footer .sub*/{
+		justify-content: center!important;
+
+
+	}
+	header .nav ul li a{
+		font-size: 16px;
+	}
+	footer .nav, footer .rights{
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+
+}
